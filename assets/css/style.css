@@ -1,0 +1,202 @@
+body, html {
+  height: 100%;
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+.bg {
+  background-image: url("/assets/css/hero.png");
+  height: 100%;
+  opacity: 0.3;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills {
+  border-top: white;
+}
+
+.navbar-nav {
+ background-color: black;
+ /* margin: 0;
+ padding: 0; */
+}
+
+h1 {
+  font-size: 71px;
+  color: whitesmoke
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font-family: arial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#resume {
+  color: white;
+  margin-top: 3em;
+  /* padding-bottom: 100px; */
+}
+/* 
+.navbar-inner {
+  background-color: transparent;
+ 
+} */
+
+#projects {
+ color: white;
+ padding-top: 75px;
+}
+
+#contact {
+  color: white;
+  padding-top: 75px;
+}
+.nav-item {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  color: white;
+}
+
+a:hover {
+  /* color:lightblue; */
+  color: orangered;
+}
+
+.active {
+  color: orangered;
+}
+
+.hero {
+  opacity: 0.3;
+  max-width: 100%;
+}
+
+
+/* ul {
+  list-style-type: none;
+} */
+
+.links {
+  color: white;
+}
+
+.projectLinks {
+  color: lightblue;
+}
+/* .pic{
+  padding: 10px;
+} */
+
+#pdf {
+margin-left: 30px;
+}
+
+#linkedIn {
+margin-left: 40px;
+}
+
+#gitHub {
+margin-left: 50px;
+}
+
+.summary {
+  text-align: center;
+  /* margin: 0, auto; */
+}
+
+.technical {
+  text-align: center;
+  /* margin: 0, auto; */
+  }
+
+
+.experience {
+  text-align: center;
+  /* margin: 0, auto; */
+}
+
+.education {
+  text-align: center;
+  /* margin: 0, auto; */
+}
+
+.special {
+  text-align: center;
+}
+.role {
+  color: white;
+}
+
+.tools {
+
+}
+#align {
+padding-left: 12%;
+padding-right: 12%;
+font-size: 14px;
+text-align: right;
+color: rgb(168, 166, 166);
+hanging-punctuation: last;
+} 
+
+.dropdown {
+  background-color: black;
+}
+
+#resume {
+  padding-top: 60px;
+}
+
+#projects {
+  margin-top: 75px;
+}
+
+#contact {
+  margin-top: 75px;
+}
+
+h3 {
+  color: rgb(168, 166, 166);
+}
+
+/* .navbar-toggle .icon-bar {
+  background-color: #fff;
+} */
+@media all and (min-width: 768px) and (max-width:1024px) {
+  #align {
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 2em;
+  }
+  h1 {
+    font-size: 5em;
+    white-space: pre;
+  }
+
+}
+
+@media all and (max-width:768px) {
+  #align {
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  h1 {
+    font-size: 2em;
+    white-space: pre;
+  }
+
+}

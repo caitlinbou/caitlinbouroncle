@@ -59,9 +59,6 @@ h1 {
   color: white;
 }
 
-.navbar-toggler-icon {
-  background-color: white;
-}
 a:hover {
   /* color:lightblue; */
   color: orangered;
@@ -75,11 +72,6 @@ a:hover {
   opacity: 0.3;
   max-width: 100%;
 }
-
-
-/* ul {
-  list-style-type: none;
-} */
 
 .links {
   color: white;
@@ -117,13 +109,17 @@ margin-left: 15px;
   /* margin-right: 100px; */
 }
 
+.edu-width {
+  width: 80%;
+}
+
 .technical {
   text-align: center;
   /* margin-left: 50px; */
   }
 
 .text-box {
-  margin-left: 40px;
+  /* margin-left: 40px; */
   margin-top: 25px;
 
   /* text-align: center; */
@@ -140,8 +136,9 @@ margin-left: 15px;
 /* margin-right: 100px; */
 
 }
-#alityPic {
-margin-right: 10px;
+.portfolio-pic {
+/* margin-right: 10px; */
+width: 100%;
 }
 #tbPic {
   margin-right: 10px;
@@ -191,10 +188,7 @@ hanging-punctuation: last;
 h3 {
   color: rgb(168, 166, 166);
 }
-
-/* .navbar-toggle .icon-bar {
-  background-color: #fff;
-} */
+5
 @media all and (min-width: 768px) and (max-width:1024px) {
   #align {
     text-align: center;

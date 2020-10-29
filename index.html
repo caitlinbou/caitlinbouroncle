@@ -17,10 +17,10 @@
 
 <body>
   <!-- NAV BAR -->
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"> <i class="fa fa-bars fa-2x"></i></span>
+      <span class="navbar-toggler-icon "></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav mx-auto">
@@ -48,9 +48,6 @@
         <br>
         <br>
         <br>
-        <br>
-
-
         <a class="links" id="gitHome" href="https://github.com/caitlinbou" target="_blank"><i class="fa fa-github"
             aria-hidden="true"></i></a>
         <a class="links" id="linkedHome" href="https://linkedin.com/in/caitlin-bouroncle" target="_blank"><i
@@ -62,20 +59,17 @@
 
   <div class="container">
     <div id="resume">
-      <div class="row">
+      <div class="row justify-content-center">
+        <div class="col-10">
         <img src="assets/css/75-pic.png" alt="caitPic" id="pic" />
       </div>
-      <div class="row">
-        <a class="links" id="pdf" href="assets/css/technicalResume .pdf" target="_blank"><i class="fa fa-file-pdf-o"
-            aria-hidden="true"></i></a>
-        <a class="links" id="linkedIn" href="https://linkedin.com/in/caitlin-bouroncle" target="_blank"><i
-            class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        <a class="links" id="gitHub" href="https://github.com/caitlinbou" target="_blank"><i class="fa fa-github"
-            aria-hidden="true"></i></a>
       </div>
       <div class="row justify-content-center">
-        <div class="summary col-8">
-          <h3>Summary</h3>
+    </div>
+      <div class="row justify-content-center">
+        <div class="summary text-left col-10">
+          <h3>Summary <a class="links" id="pdf" href="assets/css/technicalResume .pdf" target="_blank"><i class="fa fa-file-pdf-o"
+            aria-hidden="true"></i></a></h3>
           <br>
           <p>
             Exceptional manager of people and projects with 7+ years experience
@@ -91,7 +85,8 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-5 technical">
+        <div class="col-5 text-right technical ">
+          <div class="edu-width text-left">
           <h3>Technical Skills</h3>
           <br>
           <h4 class="tools">Languages</h4>
@@ -103,10 +98,11 @@
           </p>
           <h4 class="tools">Applications</h4>
           <p>Github, Heroku, mySQL, Postman</p>
-
+        </div>
         </div>
 
-        <div class="col-5 education">
+        <div class="col-5 text-left education">
+          <div class="edu-width">
           <h3>Education</h3>
           <br>
           <h4>UW Full Stack Coding Bootcamp Certificate</h4>
@@ -120,10 +116,11 @@
           <h4>Project Management Certification</h4>
           <p>LinkedIn</p>
         </div>
+        </div>
       </div>
       <br />
       <div class="row justify-content-center">
-        <div class="col-8 experience">
+        <div class="col-10 text-left experience">
           <h3>Experience</h3>
           <br>
           <h4>VP, Financial Center Manager 2005 – Present</h4>
@@ -158,11 +155,13 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="special">
+        <div class="col-10">
+        <div class="text-left special">
           <h2>Languages/Special Skills</h2>
           <br>
           <h3>Fluent in written and spoken Spanish</h3>
         </div>
+      </div>
       </div>
     </div>
   </div>
@@ -173,7 +172,16 @@
         <h3>#1-Ality</h3>
       </div>
       <div class="row">
-        <div class="col-8 text-box">
+        <div class="col-3">
+
+          <a class="projectLinks" href="https://github.com/natewinter/Ality" target="_blank"><i
+              class="fa fa-github" aria-hidden="true"></i> Ality</a>
+          ||
+          <a class="projectLinks" href="https://ality-stats.herokuapp.com" target="_blank">Website</a>
+          <img class="portfolio-pic"src="assets/css/ality.png" alt="img">
+        </div>
+
+        <div class="col-9 text-box">
           <p>
             Ality is a flexible statistic-tracking and charting tool that can be
             tailored by the user to fit any situation. No more unwieldy
@@ -193,16 +201,7 @@
             ORM.
           </p>
         </div>
-        <div class="col-3">
-
-          <a class="projectLinks" href="https://github.com/natewinter/Ality" target="_blank"><i
-              class="fa fa-github fa-2x" aria-hidden="true"></i> Ality</a>
-          ||
-          <a class="projectLinks" href="https://ality-stats.herokuapp.com" target="_blank"><i
-              class="fa fa-bar-chart fa-2x" aria-hidden="true"></i> Website</a>
-          <img id="alityPic"src="assets/css/ality.png" alt="img">
-        </div>
-
+  
       </div>
       <div class="row title">
         <h3>#2-Music Chord Identifier</h3>
@@ -210,14 +209,13 @@
       <div class="row">
         <div class="col-3">
           <a class="projectLinks" href="https://github.com/GnuArtemis/Music-Chord-Identifier" target="_blank"><i
-              class="fa fa-github fa-2x" aria-hidden="true"></i> MCI</a>
+              class="fa fa-github" aria-hidden="true"></i> MCI</a>
           ||
-          <a class="projectLinks" href=" https://gnuartemis.github.io/Music-Chord-Identifier" target="_blank"><i
-              class="fa fa-music fa-2x" aria-hidden="true"></i> Website
+          <a class="projectLinks" href=" https://gnuartemis.github.io/Music-Chord-Identifier" target="_blank">Website
           </a>
-          <img id="musicPic" src="assets/css/mci.png" alt="img">
+          <img class="portfolio-pic" src="assets/css/mci.png" alt="img">
         </div>
-        <div class="col-8 text-box">
+        <div class="col-9 text-box">
           <p>
             Music Chord Identifier uses complex algorithms to dissect chord
             information returned by APIs based on student note selection. It is
@@ -245,7 +243,13 @@
         <h3>#3-Thought Bin</h3>
       </div>
       <div class="row">
-        <div class="col-8 text-box">
+        <div class="col-3">
+          <a class="projectLinks" href="https://github.com/caitlinbou/thought-bin" target="_blank"><i
+              class="fa fa-github" aria-hidden="true"></i> Thought Bin</a> || <a class="projectLinks"
+            href="https://thought-bin.herokuapp.com" target="_blank">Website</a>
+          <img class="portfolio-pic" src="assets/css/thoughtbin.png" alt="img">
+        </div>
+        <div class="col-9 text-box">
           <p>
             Thought Bin is a note-taking tool built with an express server. It
             reads and writes to a json database file so the user may create, save,
@@ -258,23 +262,9 @@
           </p>
 
         </div>
-        <div class="col-3">
-
-          <a class="projectLinks" href="https://github.com/caitlinbou/thought-bin" target="_blank"><i
-              class="fa fa-github fa-2x" aria-hidden="true"></i> Thought Bin</a> || <a class="projectLinks"
-            href="https://thought-bin.herokuapp.com" target="_blank"><i class="fa fa-sticky-note fa-2x"
-              aria-hidden="true"></i> Website</a>
-          <img id="tbPic"src="assets/css/thoughtbin.png" alt="img">
-        </div>
+ 
       </div>
-    </div>
-    <div class="container">
-      <div id="contact">
-        <h2>Caitlin Bouroncle</h2>
-        <a class="projectLinks" href="mailto:caitlin.bouroncle@gmail.com"
-          target="_blank">caitlin.bouroncle@gmail.com</a>
-        <p>206.999.2038</p>
-      </div>
+      <footer></footer>
     </div>
 
 <!-- Modal -->

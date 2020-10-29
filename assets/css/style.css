@@ -13,14 +13,9 @@ body, html {
   background-size: cover;
 }
 
-.skills {
-  border-top: white;
-}
 
 .navbar-nav {
  background-color: black;
- /* margin: 0;
- padding: 0; */
 }
 
 h1 {
@@ -33,7 +28,7 @@ h1 {
   text-align: center;
   font-family: arial;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -41,17 +36,12 @@ h1 {
 #resume {
   color: white;
   margin-top: 3em;
-  /* padding-bottom: 100px; */
 }
-/* 
-.navbar-inner {
-  background-color: transparent;
- 
-} */
+
 
 #projects {
  color: white;
- padding-top: 75px;
+ padding-top: 30px;
 }
 
 #contact {
@@ -69,6 +59,9 @@ h1 {
   color: white;
 }
 
+.navbar-toggler-icon {
+  background-color: white;
+}
 a:hover {
   /* color:lightblue; */
   color: orangered;
@@ -92,46 +85,74 @@ a:hover {
   color: white;
 }
 
+#gitHome {
+
+margin-right: 5px;
+}
+
+#linkedHome {
+
+  margin-left: 5px; 
+}
 .projectLinks {
   color: lightblue;
 }
-/* .pic{
-  padding: 10px;
-} */
 
 #pdf {
-margin-left: 30px;
-}
-
-#linkedIn {
 margin-left: 40px;
 }
 
+#linkedIn {
+margin-left: 15px;
+}
+
 #gitHub {
-margin-left: 50px;
+margin-left: 15px;
 }
 
 .summary {
   text-align: center;
-  /* margin: 0, auto; */
+  margin-bottom: 50px;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
 }
 
 .technical {
   text-align: center;
-  /* margin: 0, auto; */
+  /* margin-left: 50px; */
   }
 
+.text-box {
+  margin-left: 40px;
+  margin-top: 25px;
 
+  /* text-align: center; */
+}
 .experience {
   text-align: center;
-  /* margin: 0, auto; */
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .education {
   text-align: center;
-  /* margin: 0, auto; */
-}
+/* margin-right: 100px; */
 
+}
+#alityPic {
+margin-right: 10px;
+}
+#tbPic {
+  margin-right: 10px;
+}
+#musicPic{
+  margin-bottom: 50px;
+}
+.title{
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
 .special {
   text-align: center;
 }
